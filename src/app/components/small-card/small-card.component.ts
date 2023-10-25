@@ -8,13 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit {
 
   @Input()
-  linkExternoSmall:string = ""
-  @Input()
   photoSmallCard: string = ""
   @Input()
   sCardTitle: string = ""
   @Input()
   sCardDescriprition: string = ""
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 

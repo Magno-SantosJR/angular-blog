@@ -21,7 +21,7 @@
     font-size: 20px;
 }
 
-.big-card__description > p{
+.big-card__description > a > p{
     margin-top: 10px;
-    color: gray;
+    color: grey;
 }
