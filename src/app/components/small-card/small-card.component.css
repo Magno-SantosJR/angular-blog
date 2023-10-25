@@ -10,16 +10,26 @@
     flex-direction: row;
 }
 
-.small-card__photo > img{
+.small-card__photo > a > img{
     width: 200px;
     min-width: 200px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .small-card__title{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
+}
+
+.small-card__title > div > p{
+    font-size: 15px;
+    color: grey;
+    text-align: justify;
+    margin-top: 15px;
 }
 
 .container__small-card-separator{
